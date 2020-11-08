@@ -1,8 +1,8 @@
 /*****************************************************************//**
  * \file   retangulo.c
- * \brief  programa para c·lculo das dimensıes de um ret‚ngulo ou quadrado. ExercÌcio 3 da folha de exercÌcios II do word.
+ * \brief  programa para c√°lculo das dimens√µes de um ret√¢ngulo ou quadrado. Exerc√≠cio 3 da folha de exerc√≠cios II do word.
  * 
- * \author SÈrgio
+ * \author S√©rgio
  * \date   November 2020
  *********************************************************************/
 
@@ -14,7 +14,7 @@ int main() {
 	//Caracteres especiais portugueses
 	setlocale(LC_ALL, "");
 
-	//var·veis de altura e base
+	//var√°veis de altura e base
 	float altura;
 	float base;
 	
@@ -24,13 +24,14 @@ int main() {
 	printf("Insira o valor da altura em cm: \n");
 	scanf("%f", &altura);
 
-	//var·veis do c·culo da ·rea e perÌmetro
+	//var√°veis do c√°culo da √°rea e per√≠metro
 	float area = (base * altura);
 	float perimetro = ((base * 2) + (altura * 2));
 
-	/// Print da soluÁ„o com 2 casas decimais(.2), mesmo que n„o haja casas decimais(#)
-	printf("O valor da ·rea È %#.2f cm2\n", area);
-	printf("O valor da ·rea È %#.2f cm2\n", perimetro);
+	/// Print da solu√ß√£o com 2 casas decimais(.2), mesmo que n√£o haja casas decimais(#)
+	printf("O valor da √°rea √© %#.2f cm2\n", area);
+	printf("O valor da √°rea √© %#.2f cm2\n", perimetro);
+	///Adicionado ao GitHub
 
 
 
